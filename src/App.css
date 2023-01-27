@@ -1,0 +1,108 @@
+.page-one{
+  
+  background-image: url("./images/code.jpg");
+background-repeat: no-repeat;
+min-height: 145vh;
+background-size: cover;
+}
+
+.navbar{
+  background-color: black;
+}
+ h3{
+  color: white;
+}
+
+.welcome{
+  font-weight: bolder;
+}
+
+.logo{
+  width: 20vh;
+}
+
+.logodiv{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+.page-one>div{
+  display: flex;
+  
+  height: 75vh;
+}
+.page-one>button{
+  position: relative;
+ 
+}
+
+.card{
+  margin: 10px;
+  
+}
+
+
+
+button{
+  background-color: rgb(28, 28, 54) !important;
+}
+
+.mainlogo{
+  border-radius: 170px;
+  width: 40vh;
+  position: relative;
+  left: 9vh;
+ 
+}
+
+h5{
+  color: white;
+  font-size: small;
+}
+
+.enroll{
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+
+@media all and (max-width: 500px) {
+  button {
+    background-color: lightblue;
+    background-image: none;
+  }
+
+  .mainlogo{
+    position: relative;
+    left: -4vh;
+    width: 35vh;
+   
+  }
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .mainlogo {
+    animation: mainlogo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+@keyframes mainlogo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
